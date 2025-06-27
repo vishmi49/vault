@@ -10,7 +10,11 @@ const Navbar = () => {
 
       {/* Menu */}
       <ul className="flex space-x-25 font-poppins text-sm text-black uppercase">
-        <li className="hover:text-gray-500 cursor-pointer">Our Services</li>
+        <li className="hover:text-gray-500 cursor-pointer">
+          <a href="#our-services" className="scroll-smooth">
+            Our Services
+          </a>
+        </li>
         <li className="hover:text-gray-500 cursor-pointer">Designs</li>
         <li className="hover:text-gray-500 cursor-pointer">Materials</li>
         <li className="hover:text-gray-500 cursor-pointer">Contact</li>

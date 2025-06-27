@@ -4,9 +4,9 @@ import OverlayContent from "./OverlayContent";
 
 const Main = () => {
   return (
-    <section className="fixed top-0 left-0 w-screen h-screen overflow-hidden flex items-center justify-center">
+    <section className="relative top-0 left-0 w-screen h-screen overflow-hidden flex flex-col md:flex-row items-center justify-center">
       {/* Right green background – bottom layer */}
-      <div className="absolute top-0 right-[25px] w-[50vw] h-screen bg-[#d8e7d2] z-0" />
+      <div className="absolute top-0 right-[25px] w-[48vw] h-screen bg-[#d8e7d2] z-0" />
 
       {/* Centered Content (video + text) */}
       <div className="relative z-10 flex items-center w-full h-full max-w-7xl mx-auto px-4">
